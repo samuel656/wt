@@ -1,0 +1,66 @@
+<html>
+<title>forms</title>
+<body background="book.jpg">
+<marquee  behavior="alternate" >
+	<font color="black"><B>STUDENT REGISTRATION FORM</B></font>
+</MARQUEE>
+
+
+<p>
+<label><font color="red">Name</font>&nbsp;
+<input type="text" placeholder="enter name" name="name" required>
+</label> 
+</p>
+
+<p>
+<label><font color="red">Mobile Number </font>&nbsp;
+<input type="tel" placeholder="enter mobile number" name="phone_number">
+</label>
+</p>
+
+<p>
+<label><font color="red">Email</font>&nbsp;
+<input type="email" placeholder="enter mail id"  name="email_address">
+</label>
+</p>
+
+
+<p>
+<label><font color="red">Date of birth</font>&nbsp;
+<input type="datetime-local" name="DOB" required>
+</label>
+</p>
+
+
+<p>
+<label><font color="red">City</font>&nbsp;
+<select id="state" name="state">
+<option value="city" selected="selected">Select One</option>
+<option value="city" >vijayawada</option>
+<option value="city" >Hyderabad</option>
+<option value="city" >Visakaptnam</option>
+</select>
+</label> 
+</p>
+
+
+
+<fieldset>
+<legend><font color="red">Gender</font></legend>
+<p><label> <input type="radio" name="gender" value="male"> male </label></p>
+<p><label> <input type="radio" name="gender" value="female"> female </label></p>
+</fieldset>
+
+
+<fieldset>
+<legend><font color="red">programming languages known</font></legend>
+<p><label> <input type="checkbox" name="java" required value="java"> java</label></p>
+<p><label> <input type="checkbox" name="C++" required value="C++"> C++ </label></p>
+<p><label> <input type="checkbox" name="Python" required value="Python"> Python</label></p>
+</fieldset>
+
+
+<p><button><b>SUBMIT</b></button></p>
+</form>
+</body>
+</html>
